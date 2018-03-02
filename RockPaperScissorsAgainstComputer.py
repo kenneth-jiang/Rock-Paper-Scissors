@@ -9,7 +9,7 @@ elif random == 2:
 	choice = "scissors"
 
 print("Welcome to Rock, Paper, Scissors 2.0! \n Make your choice!")
-user_input = input()
+user_input = input().lower()
 
 if user_input == choice:
 	print(f"Computer has picked {choice}!")
